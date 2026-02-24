@@ -1,0 +1,40 @@
+header {
+    background-color: #15212a;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+header button {
+    padding: 10px;
+    background-color: #d7b89c;
+    width: 110px;
+    border: none;
+}
+
+
+header img {
+    width: 100px;
+}
+
+.primeira-section {
+    background-color: #99c9bd;
+    padding: 140px;
+}
+.segunda-section {
+    background-color: #d7b89c;
+    padding: 140px;
+}
+.terceira-section {
+    background-color: #feab8d;
+    padding: 140px;
+}
+
+
+
+footer {
+    background-color: #15212a;
+    padding: 60px;
+}
