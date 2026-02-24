@@ -7,7 +7,7 @@ header {
     
 }
 
-header button {
+.dombosco {
     padding: 10px;
     background-color: #d7b89c;
     width: 110px;
@@ -22,19 +22,48 @@ header img {
 .primeira-section {
     background-color: #99c9bd;
     padding: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+.primeira-section img {
+width: 250px;
+}
+
+
 .segunda-section {
-    background-color: #d7b89c;
+    background-color: #564c43;
     padding: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .terceira-section {
     background-color: #feab8d;
     padding: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.terceira-section img {
+    width: 250px;
+}
 
 
 footer {
     background-color: #15212a;
     padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+footer p {
+    color: white;
+}
+
+footer img {
+    width: 100px;
 }
