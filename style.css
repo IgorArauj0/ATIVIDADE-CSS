@@ -1,24 +1,25 @@
 header {
-    background-color: #15212a;
-    padding: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    background-color: #15212a;/*cor de fundo*/
+    padding: 60px;/*preenchimento header*/
+    display: flex;/*habilitar flexbox/alinhamento*/
+    align-items: center;/*alinhamento vertical*/
+    justify-content: space-evenly;/*alinhamento horizontal*/
     
 }
-
+/* estilizações dos botões */
 .dombosco {
-    padding: 10px;
-    background-color: #d7b89c;
-    width: 110px;
-    border: none;
+    padding: 10px;/*preenchimento interno*/
+    background-color: #d7b89c;/*cor fundo*/
+    width: 110px;/*largura do button*/
+    border: none;/*remoção das bordas*/
 }
 
-
+/*estilização da img do header*/
 header img {
-    width: 100px;
+    width: 100px;/*largura da img*/
 }
 
+/* estilização da primeira section */
 .primeira-section {
     background-color: #99c9bd;
     padding: 140px;
@@ -67,3 +68,7 @@ footer p {
 footer img {
     width: 100px;
 }
+
+/* Clínica de Odontologia */
+/* Barbearia do Naldo */
+/* Padaria do Renato */
