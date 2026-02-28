@@ -34,7 +34,12 @@ width: 250px;
 
 
 .segunda-section {
-    background-color: #564c43;
+    /* background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); /*Uma cor com Degradê*/
+    background: linear-gradient(180deg, #0c16a364 8.33%, #99c9bd 100%), url(imagens/architecture-3128917_1280.jpg);
+    background-position: center; /*posicionamento da img*/
+    background-repeat: no-repeat; /*desabilitando repetição da img*/
+    background-size: cover; /*Preenchimento total da img*/
+    background-attachment: fixed; /*Tornando img fixa na section_*/
     padding: 140px;
     display: flex;
     align-items: center;
